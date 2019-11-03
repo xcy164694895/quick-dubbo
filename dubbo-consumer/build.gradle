@@ -1,0 +1,9 @@
+archivesBaseName = 'dubbo-consumer'
+
+jar.enabled = true
+bootJar.enabled = true
+
+
+dependencies {
+    implementation project(':dubbo-api') /* 子模块之间的依赖 */
+}
